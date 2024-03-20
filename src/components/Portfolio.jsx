@@ -6,6 +6,7 @@ import employeeTracker from '../assets/images/employeeTracker.webp';
 import ecommerceBackend from '../assets/images/ecommerceBackend.webp';
 import justAnotherTextEditor from '../assets/images/justAnotherTextEditor.webp';
 import socialNetworkApi from '../assets/images/socialNetworkApi.webp';
+import '../styles/Portfolio.css';
 
 function Portfolio() {
 
@@ -55,9 +56,9 @@ function Portfolio() {
   ];
 
   return (
-    <div>
+    <div className="portfolio">
       <h2>Portfolio</h2>
-      <div>
+      <div className="projects">
         {projects.map(project => (
           <Project key={project.id} {...project} />
         ))}

@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Project.css';
 
 function Project ({ title, imageUrl, stack, githubUrl }) {
   return (
-    <div>
+    <div className="project">
       <img src={imageUrl} alt={title} />
       <h3>{title}</h3>
       <ul>
