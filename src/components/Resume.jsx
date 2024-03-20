@@ -28,7 +28,7 @@ function Resume() {
 
       <h2>Resume</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum enim rem distinctio placeat officiis tempora commodi repellat nulla pariatur aspernatur.</p>
-      <a href="path/to/resume.pdf" target="_blank" rel="noopener noreferrer" className="download-resume">Download Resume</a>
+      <a href="../../public/Resume Template.md" target="_blank" rel="noopener noreferrer" className="download-resume">Download Resume</a>
     </div>
     
   )
