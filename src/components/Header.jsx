@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 
 function Header() {
   return (
-    <header>
+    <header className="header">
       <h1>AdrianO</h1>
       <Navigation />
     </header>
