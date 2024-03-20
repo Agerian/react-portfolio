@@ -3,7 +3,7 @@ import Project from './Project';
 import workDayScheduler from '../assets/images/workDayScheduler.webp';
 import weatherApi from '../assets/images/weatherApi.webp';
 import employeeTracker from '../assets/images/employeeTracker.webp';
-import ecommerceBackend from '../assets/images/ecommerceBackend.webp';
+import ecommerceBackend from '../assets/images/eCommerceBackend.webp';
 import justAnotherTextEditor from '../assets/images/justAnotherTextEditor.webp';
 import socialNetworkApi from '../assets/images/socialNetworkApi.webp';
 import '../styles/Portfolio.css';
