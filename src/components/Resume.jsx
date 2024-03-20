@@ -1,12 +1,12 @@
 import React from 'react';
+import '../styles/Resume.css';
 
 function Resume() {
   return (
-    <div>
+    <div className="resume-container">
       
-
       <h3>Front-end Proficiencies</h3>
-      <ul>
+      <ul className="skills-list">
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>

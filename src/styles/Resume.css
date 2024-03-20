@@ -1,0 +1,55 @@
+.resume-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f2e9e4;
+  color: #22223B;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.resume-container h2,
+.resume-container h3 {
+  font-family: 'Georgia', serif;
+  color: #4A4E69;
+}
+
+.skill-list, 
+.resume-container ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  display: inline-block;
+}
+
+.skill-list li,
+.resume-container ul li {
+  background-color: #E7E7E7;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.download-resume {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #4A4E69;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-resume:hover {
+  background-color: #9A8C98;
+}
+
+.resume-container p {
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 90%;
+  margin: 20px auto;
+}
