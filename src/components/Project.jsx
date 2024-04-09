@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Project.css';
 
-function Project ({ title, imageUrl, stack, githubUrl }) {
+function Project ({ title, imageUrl, stack, githubUrl, liveUrl }) {
   return (
     <div className="project">
       <img src={imageUrl} alt={title} />
@@ -12,6 +12,7 @@ function Project ({ title, imageUrl, stack, githubUrl }) {
         ))}
       </ul>
       <a href={githubUrl} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      <a href={liveUrl} target="_blank" rel="noopener noreferrer">Live Site</a>
     </div>
   );
 };

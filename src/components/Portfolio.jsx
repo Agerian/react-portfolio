@@ -59,7 +59,8 @@ function Portfolio() {
       title: "Piedmont Restaurant",
       imageUrl: piedmontRestaurant,
       stack: ['MERN'],
-      githubUrl: "https://github.com/Agerian/restaurantMenu"
+      githubUrl: "https://github.com/Agerian/restaurantMenu",
+      liveUrl: "https://piedmont-qlgh.onrender.com/"
     }
   ];
 
