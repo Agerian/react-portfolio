@@ -6,6 +6,7 @@ import employeeTracker from '../assets/images/employeeTracker.webp';
 import ecommerceBackend from '../assets/images/eCommerceBackend.webp';
 import justAnotherTextEditor from '../assets/images/justAnotherTextEditor.webp';
 import socialNetworkApi from '../assets/images/socialNetworkApi.webp';
+import piedmontRestaurant from '../assets/images/PiedmontPortfolio.webp';
 import '../styles/Portfolio.css';
 
 function Portfolio() {
@@ -52,6 +53,13 @@ function Portfolio() {
       imageUrl: socialNetworkApi,
       stack: ['MongoDB', 'Mongoose', 'Express.js'],
       githubUrl: "https://github.com/Agerian/social-network-api"
+    },
+    {
+      id: 7,
+      title: "Piedmont Restaurant",
+      imageUrl: piedmontRestaurant,
+      stack: ['MERN'],
+      githubUrl: "https://github.com/Agerian/restaurantMenu"
     }
   ];
 
